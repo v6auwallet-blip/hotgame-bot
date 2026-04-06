@@ -1,0 +1,44 @@
+name: Withdraw Alert
+
+on:
+  workflow_dispatch:
+    inputs:
+      tx_id:
+        required: true
+        type: string
+      amount:
+        required: true
+        type: string
+      time:
+        required: true
+        type: string
+
+jobs:
+  run-withdraw:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install system packages for canvas
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev librsvg2-dev
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run withdraw bot
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          TX_ID: ${{ github.event.inputs.tx_id }}
+          TX_AMOUNT: ${{ github.event.inputs.amount }}
+          TX_TIME: ${{ github.event.inputs.time }}
+        run: node withdraw.js
