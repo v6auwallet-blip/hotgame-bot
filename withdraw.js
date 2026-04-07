@@ -19,7 +19,7 @@ function absAmount(value) {
 function getCaption(amount, provider, mobile) {
   if (amount >= 5000) {
     return `🎉 <b>CONGRATULATIONS!</b>
-━━━━━━━━━━━━━━
+=======================
 💎 <b>V6BET HIGH ROLLER WIN ALERT !</b>
 Cashout : <b>AUD ${amount.toFixed(2)}</b>
 Game : {provider}
@@ -36,7 +36,7 @@ Player ▶️ {mobile}
 
   if (amount >= 2000) {
     return `🎉 <b>CONGRATULATIONS!</b>
-━━━━━━━━━━━━━━
+=======================
 🎯 <b>Another BIG WIN on V6BET!</b>
 Cashout : <b>AUD ${amount.toFixed(2)}</b>
 Game : {provider}
@@ -53,7 +53,7 @@ Player ▶️ {mobile}
 
   if (amount >= 1000) {
     return `🎉 <b>CONGRATULATIONS!</b>
-━━━━━━━━━━━━━━
+=======================
 🔥 <b>V6BET BIG WIN JUST HIT!</b>
 Cashout : <b>AUD ${amount.toFixed(2)}</b>
 Game : {provider}
@@ -69,7 +69,7 @@ Player ▶️ {mobile}
   }
 
   return `🎉 <b>CONGRATULATIONS!</b>
-━━━━━━━━━━━━━━
+=======================
 🎉 <b>V6BET WIN UPDATE</b>
 Cashout : <b>AUD ${amount.toFixed(2)}</b>
 Game : {provider}
