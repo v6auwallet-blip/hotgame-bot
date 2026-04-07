@@ -24,17 +24,11 @@ function getCaption(amount, provider, mobile) {
 💰 <b>AUD ${amount.toFixed(2)}</b>
 🎰 ${provider}
 📱 ${mobile}
-━━━━━━━━━━━━━━
+=======================
 ⚡ REAL WIN • REAL PAYOUT
 🐸 Australia Trusted Platform
 🪙 Deposit 5–15s
 🪙 Withdraw 2–5min
-=======================
-⚡ <b>REAL WIN • REAL PAYOUT</b>
-🌍 国际认证 • 公平透明 • 全天候服务
-🌐 Internationally Certified • Fair & Transparent • 24/7
-🪙 Instant Deposit: 5–15s
-🪙 Fast Withdrawal: 2–5 min
 =======================
 💎 <a href="https://v6aus.com/RF1525A8312">START WINNING NOW</a >`;
   }
