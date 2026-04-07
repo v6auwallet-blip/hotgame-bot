@@ -25,16 +25,16 @@ async function generateImage(data) {
   ctx.textAlign = 'center';
 
   // 金额
-  ctx.shadowColor = '#FFD700';
+  ctx.shadowColor = '#ffaa00';
   ctx.shadowBlur = 18;
   ctx.fillStyle = '#FFD700';
-  ctx.font = 'bold 80px Arial';
+  ctx.font = 'bold 80px Poppins';
   ctx.fillText(`AUD ${Math.abs(Number(data.amount || 0)).toFixed(2)}`, centerX, 120);
   ctx.shadowBlur = 0;
 
   // 手机 + provider
   ctx.fillStyle = '#ffffff';
-  ctx.font = 'bold 32px Arial';
+  ctx.font = 'bold 32px Poppins';
   ctx.fillText(
     `${maskPhone(data.mobile)}   •   ${data.provider}`,
     centerX,
