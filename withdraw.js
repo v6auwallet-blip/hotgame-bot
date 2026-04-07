@@ -21,7 +21,7 @@ function getCaption(amount, provider, mobile) {
     return `🎉 <b>CONGRATULATIONS!</b>
 ━━━━━━━━━━━━━━
 💎 <b>V6BET HIGH ROLLER WIN ALERT !</b>
-Deposit : <b>AUD ${amount.toFixed(2)}</b>
+Cashout : <b>AUD ${amount.toFixed(2)}</b>
 Game : {provider}
 Player ▶️ {mobile}
 =======================
@@ -38,7 +38,7 @@ Player ▶️ {mobile}
     return `🎉 <b>CONGRATULATIONS!</b>
 ━━━━━━━━━━━━━━
 🎯 <b>Another BIG WIN on V6BET!</b>
-Deposit : <b>AUD ${amount.toFixed(2)}</b>
+Cashout : <b>AUD ${amount.toFixed(2)}</b>
 Game : {provider}
 Player ▶️ {mobile}
 =======================
@@ -55,7 +55,7 @@ Player ▶️ {mobile}
     return `🎉 <b>CONGRATULATIONS!</b>
 ━━━━━━━━━━━━━━
 🔥 <b>V6BET BIG WIN JUST HIT!</b>
-Deposit : <b>AUD ${amount.toFixed(2)}</b>
+Cashout : <b>AUD ${amount.toFixed(2)}</b>
 Game : {provider}
 Player ▶️ {mobile}
 =======================
@@ -71,7 +71,7 @@ Player ▶️ {mobile}
   return `🎉 <b>CONGRATULATIONS!</b>
 ━━━━━━━━━━━━━━
 🎉 <b>V6BET WIN UPDATE</b>
-Deposit : <b>AUD ${amount.toFixed(2)}</b>
+Cashout : <b>AUD ${amount.toFixed(2)}</b>
 Game : {provider}
 Player ▶️ {mobile}
 =======================
