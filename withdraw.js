@@ -26,9 +26,10 @@ function getCaption(amount, provider, mobile) {
 📱 ${mobile}
 =======================
 ⚡ REAL WIN • REAL PAYOUT
+🌍 信赖平台 • 公平公正机制 • 极速存提体验
 🌐 Internationally Certified • Fair & Transparent • 24/
-🪙 Deposit 5–15s
-🪙 Withdraw 2–5min
+🪙 Deposit: 5–15s
+🪙 Withdrawal: 2–5 min
 =======================
 💎 <a href="https://v6aus.com/RF1525A8312">START WINNING NOW</a >`;
   }
@@ -41,10 +42,11 @@ function getCaption(amount, provider, mobile) {
 🎰 ${provider}
 📱 ${mobile}
 =======================
-⚡ REAL BET • REAL CASHOUT
+⚡ Instant Withdraw • AU Trusted
+🌍 信赖平台 • 公平公正机制 • 极速存提体验
 🌐 Internationally Certified • Fair & Transparent • 24/
-🪙 Deposit 5–15s
-🪙 Withdraw 2–5min
+🪙 Deposit: 5–15s
+🪙 Withdrawal: 2–5 min
 =======================
 🔥 <a href="https://v6aus.com/RF1525A8312">JOIN NOW & WIN BIG</a >`;
   }
@@ -58,9 +60,10 @@ function getCaption(amount, provider, mobile) {
 📱 ${mobile}
 =======================
 ⚡ REAL BET • REAL CASHOUT
+🌍 信赖平台 • 公平公正机制 • 极速存提体验
 🌐 Internationally Certified • Fair & Transparent • 24/
-🪙 Deposit 5–15s
-🪙 Withdraw 2–5min
+🪙 Deposit: 5–15s
+🪙 Withdrawal: 2–5 min
 =======================
 🔥 <a href="https://v6aus.com/RF1525A8312">CLICK NOW & WIN</a >`;
   }
@@ -73,9 +76,10 @@ function getCaption(amount, provider, mobile) {
 📱 ${mobile}
 =======================
 ⚡ REAL BET • REAL CASHOUT
+🌍 信赖平台 • 公平公正机制 • 极速存提体验
 🌐 Internationally Certified • Fair & Transparent • 24/
-🪙 Deposit 5–15s
-🪙 Withdraw 2–5min
+🪙 Deposit: 5–15s
+🪙 Withdrawal: 2–5 min
 =======================
 🌐 <a href="https://v6aus.com/RF1525A8312">PLAY NOW</a >`;
 }
