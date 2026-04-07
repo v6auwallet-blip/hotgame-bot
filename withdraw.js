@@ -26,7 +26,7 @@ function getCaption(amount, provider, mobile) {
 📱 ${mobile}
 =======================
 ⚡ REAL WIN • REAL PAYOUT
-🐸 Australia Trusted Platform
+🌐 Internationally Certified • Fair & Transparent • 24/
 🪙 Deposit 5–15s
 🪙 Withdraw 2–5min
 =======================
@@ -41,8 +41,8 @@ function getCaption(amount, provider, mobile) {
 🎰 ${provider}
 📱 ${mobile}
 =======================
-⚡ REAL WIN • REAL PAYOUT
-🐸 Australia Trusted Platform
+⚡ REAL BET • REAL CASHOUT
+🌐 Internationally Certified • Fair & Transparent • 24/
 🪙 Deposit 5–15s
 🪙 Withdraw 2–5min
 =======================
@@ -57,8 +57,8 @@ function getCaption(amount, provider, mobile) {
 🎰 ${provider}
 📱 ${mobile}
 =======================
-⚡ REAL WIN • REAL PAYOUT
-🐸 Australia Trusted Platform
+⚡ REAL BET • REAL CASHOUT
+🌐 Internationally Certified • Fair & Transparent • 24/
 🪙 Deposit 5–15s
 🪙 Withdraw 2–5min
 =======================
@@ -72,8 +72,8 @@ function getCaption(amount, provider, mobile) {
 🎰 ${provider}
 📱 ${mobile}
 =======================
-⚡ REAL WIN • REAL PAYOUT
-🐸 Australia Trusted Platform
+⚡ REAL BET • REAL CASHOUT
+🌐 Internationally Certified • Fair & Transparent • 24/
 🪙 Deposit 5–15s
 🪙 Withdraw 2–5min
 =======================
