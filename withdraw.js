@@ -20,61 +20,67 @@ function getCaption(amount, provider, mobile) {
   if (amount >= 5000) {
     return `🎉 <b>CONGRATULATIONS!</b>
 ━━━━━━━━━━━━━━
-👑 <b>JACKPOT PAYOUT CONFIRMED</b>
-💰 <b>AUD ${amount.toFixed(2)}</b>
-🎰 ${provider}
-📱 ${mobile}
-━━━━━━━━━━━━━━
-⚡ REAL WIN • REAL PAYOUT
-🐸 Australia Trusted Platform
-🪙 Deposit 5–15s
-🪙 Withdraw 2–5min
-━━━━━━━━━━━━━━
+💎 <b>V6BET HIGH ROLLER WIN ALERT !</b>
+Deposit : <b>AUD ${amount.toFixed(2)}</b>
+Game : {provider}
+Player ▶️ {mobile}
+=======================
+⚡ <b>REAL WIN • REAL PAYOUT</b>
+🌍 国际认证 • 公平透明 • 全天候服务
+🌐 Internationally Certified • Fair & Transparent • 24/7
+🪙 Instant Deposit: 5–15s
+🪙 Fast Withdrawal: 2–5 min
+=======================
 💎 <a href="https://v6aus.com/RF1525A8312">START WINNING NOW</a >`;
   }
 
   if (amount >= 2000) {
     return `🎉 <b>CONGRATULATIONS!</b>
 ━━━━━━━━━━━━━━
-🚨 <b>MEGA WIN JUST PAID</b>
-💰 <b>AUD ${amount.toFixed(2)}</b>
-🎰 ${provider}
-📱 ${mobile}
-━━━━━━━━━━━━━━
-⚡ Instant Withdraw • AU Trusted
-🪙 Deposit 5–15s
-🪙 Withdraw 2–5min
-━━━━━━━━━━━━━━
+🎯 <b>Another BIG WIN on V6BET!</b>
+Deposit : <b>AUD ${amount.toFixed(2)}</b>
+Game : {provider}
+Player ▶️ {mobile}
+=======================
+⚡ <b>REAL WIN • REAL PAYOUT</b>
+🌍 国际认证 • 公平透明 • 全天候服务
+🌐 Internationally Certified • Fair & Transparent • 24/7
+🪙 Instant Deposit: 5–15s
+🪙 Fast Withdrawal: 2–5 min
+=======================
 🔥 <a href="https://v6aus.com/RF1525A8312">JOIN NOW & WIN BIG</a >`;
   }
 
   if (amount >= 1000) {
     return `🎉 <b>CONGRATULATIONS!</b>
 ━━━━━━━━━━━━━━
-🚨 <b>V6BET BIG WIN ALERT</b>
-💰 <b>AUD ${amount.toFixed(2)}</b>
-🎰 <b>${provider}</b>
-📱 ${mobile}
-━━━━━━━━━━━━━━
-⚡ FAST PAYOUT SYSTEM
-🐸 Trusted by AU Players
-🪙 Deposit 5–15s ✅
-🪙 Withdraw 2–5min ✅
-━━━━━━━━━━━━━━
+🔥 <b>V6BET BIG WIN JUST HIT!</b>
+Deposit : <b>AUD ${amount.toFixed(2)}</b>
+Game : {provider}
+Player ▶️ {mobile}
+=======================
+⚡ <b>REAL WIN • REAL PAYOUT</b>
+🌍 国际认证 • 公平透明 • 全天候服务
+🌐 Internationally Certified • Fair & Transparent • 24/7
+🪙 Instant Deposit: 5–15s
+🪙 Fast Withdrawal: 2–5 min
+=======================
 🔥 <a href="https://v6aus.com/RF1525A8312">CLICK NOW & WIN</a >`;
   }
 
   return `🎉 <b>CONGRATULATIONS!</b>
 ━━━━━━━━━━━━━━
-👽 <b>V6BET WIN UPDATE</b>
-💰 <b>AUD ${amount.toFixed(2)}</b>
-🎰 ${provider}
-📱 ${mobile}
-━━━━━━━━━━━━━━
-⚡ Fast & Secure Payout
-🪙 Deposit 5–15s
-🪙 Withdraw 2–5min
-━━━━━━━━━━━━━━
+🎉 <b>V6BET WIN UPDATE</b>
+Deposit : <b>AUD ${amount.toFixed(2)}</b>
+Game : {provider}
+Player ▶️ {mobile}
+=======================
+⚡ <b>REAL WIN • REAL PAYOUT</b>
+🌍 国际认证 • 公平透明 • 全天候服务
+🌐 Internationally Certified • Fair & Transparent • 24/7
+🪙 Instant Deposit: 5–15s
+🪙 Fast Withdrawal: 2–5 min
+=======================
 🌐 <a href="https://v6aus.com/RF1525A8312">PLAY NOW</a >`;
 }
 
