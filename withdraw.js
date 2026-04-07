@@ -46,7 +46,7 @@ function getCaption(amount, provider, mobile) {
 💰 <b>AUD ${amount.toFixed(2)}</b>
 🎰 ${provider}
 📱 ${mobile}
-━━━━━━━━━━━━━━
+=======================
 ⚡ REAL WIN • REAL PAYOUT
 🐸 Australia Trusted Platform
 🪙 Deposit 5–15s
@@ -62,7 +62,7 @@ function getCaption(amount, provider, mobile) {
 💰 <b>AUD ${amount.toFixed(2)}</b>
 🎰 ${provider}
 📱 ${mobile}
-━━━━━━━━━━━━━━
+=======================
 ⚡ REAL WIN • REAL PAYOUT
 🐸 Australia Trusted Platform
 🪙 Deposit 5–15s
@@ -77,7 +77,7 @@ function getCaption(amount, provider, mobile) {
 💰 <b>AUD ${amount.toFixed(2)}</b>
 🎰 ${provider}
 📱 ${mobile}
-━━━━━━━━━━━━━━
+=======================
 ⚡ REAL WIN • REAL PAYOUT
 🐸 Australia Trusted Platform
 🪙 Deposit 5–15s
