@@ -21,9 +21,14 @@ function getCaption(amount, provider, mobile) {
     return `🎉 <b>CONGRATULATIONS!</b>
 =======================
 💎 <b>V6BET HIGH ROLLER WIN ALERT !</b>
-Cashout : <b>AUD ${amount.toFixed(2)}</b>
-Game : {provider}
-Player ▶️ {mobile}
+💰 <b>AUD ${amount.toFixed(2)}</b>
+🎰 ${provider}
+📱 ${mobile}
+━━━━━━━━━━━━━━
+⚡ REAL WIN • REAL PAYOUT
+🐸 Australia Trusted Platform
+🪙 Deposit 5–15s
+🪙 Withdraw 2–5min
 =======================
 ⚡ <b>REAL WIN • REAL PAYOUT</b>
 🌍 国际认证 • 公平透明 • 全天候服务
@@ -38,15 +43,14 @@ Player ▶️ {mobile}
     return `🎉 <b>CONGRATULATIONS!</b>
 =======================
 🎯 <b>Another BIG WIN on V6BET!</b>
-Cashout : <b>AUD ${amount.toFixed(2)}</b>
-Game : {provider}
-Player ▶️ {mobile}
-=======================
-⚡ <b>REAL WIN • REAL PAYOUT</b>
-🌍 国际认证 • 公平透明 • 全天候服务
-🌐 Internationally Certified • Fair & Transparent • 24/7
-🪙 Instant Deposit: 5–15s
-🪙 Fast Withdrawal: 2–5 min
+💰 <b>AUD ${amount.toFixed(2)}</b>
+🎰 ${provider}
+📱 ${mobile}
+━━━━━━━━━━━━━━
+⚡ REAL WIN • REAL PAYOUT
+🐸 Australia Trusted Platform
+🪙 Deposit 5–15s
+🪙 Withdraw 2–5min
 =======================
 🔥 <a href="https://v6aus.com/RF1525A8312">JOIN NOW & WIN BIG</a >`;
   }
@@ -55,15 +59,14 @@ Player ▶️ {mobile}
     return `🎉 <b>CONGRATULATIONS!</b>
 =======================
 🔥 <b>V6BET BIG WIN JUST HIT!</b>
-Cashout : <b>AUD ${amount.toFixed(2)}</b>
-Game : {provider}
-Player ▶️ {mobile}
-=======================
-⚡ <b>REAL WIN • REAL PAYOUT</b>
-🌍 国际认证 • 公平透明 • 全天候服务
-🌐 Internationally Certified • Fair & Transparent • 24/7
-🪙 Instant Deposit: 5–15s
-🪙 Fast Withdrawal: 2–5 min
+💰 <b>AUD ${amount.toFixed(2)}</b>
+🎰 ${provider}
+📱 ${mobile}
+━━━━━━━━━━━━━━
+⚡ REAL WIN • REAL PAYOUT
+🐸 Australia Trusted Platform
+🪙 Deposit 5–15s
+🪙 Withdraw 2–5min
 =======================
 🔥 <a href="https://v6aus.com/RF1525A8312">CLICK NOW & WIN</a >`;
   }
@@ -71,15 +74,14 @@ Player ▶️ {mobile}
   return `🎉 <b>CONGRATULATIONS!</b>
 =======================
 🎉 <b>V6BET WIN UPDATE</b>
-Cashout : <b>AUD ${amount.toFixed(2)}</b>
-Game : {provider}
-Player ▶️ {mobile}
-=======================
-⚡ <b>REAL WIN • REAL PAYOUT</b>
-🌍 国际认证 • 公平透明 • 全天候服务
-🌐 Internationally Certified • Fair & Transparent • 24/7
-🪙 Instant Deposit: 5–15s
-🪙 Fast Withdrawal: 2–5 min
+💰 <b>AUD ${amount.toFixed(2)}</b>
+🎰 ${provider}
+📱 ${mobile}
+━━━━━━━━━━━━━━
+⚡ REAL WIN • REAL PAYOUT
+🐸 Australia Trusted Platform
+🪙 Deposit 5–15s
+🪙 Withdraw 2–5min
 =======================
 🌐 <a href="https://v6aus.com/RF1525A8312">PLAY NOW</a >`;
 }
