@@ -9,7 +9,6 @@ function getTemplateByAmount(amount) {
   if (amount >= 5000) return 'template-5000.png';
   if (amount >= 2000) return 'template-2000.png';
   if (amount >= 1000) return 'template-1000.png';
-  return 'template.png';
 }
 
 async function generateImage(data) {
