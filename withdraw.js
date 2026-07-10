@@ -51,7 +51,7 @@ function getCaption(amount, provider, mobile) {
 🔥 <a href="https://v6aus.com/RF1525A8312">JOIN NOW & WIN BIG</a >`;
   }
 
-  if (amount >= 1000) {
+  if (amount >= 1500) {
     return `🎉 <b>CONGRATULATIONS!</b>
 =======================
 🔥 <b>V6BET BIG WIN JUST HIT!</b>
