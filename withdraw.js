@@ -8,7 +8,7 @@ const TX_ID = String(process.env.TX_ID || '');
 const TX_AMOUNT = Math.abs(Number(process.env.TX_AMOUNT || 0));
 const TX_TIME = String(process.env.TX_TIME || '');
 
-const API_URL = 'https://v6aus.com/getLiveStat.php';
+const API_URL = 'https://v6aus.co/getLiveStat.php';
 const MIN_AMOUNT = 500;
 
 function absAmount(value) {
@@ -31,7 +31,7 @@ function getCaption(amount, provider, mobile) {
 🪙 Deposit: 5–15s
 🪙 Withdrawal: 2–5 min
 =======================
-💎 <a href="https://v6aus.com/RF1525A8312">START WINNING NOW</a >`;
+💎 <a href="https://v6aus.co/RF1525A8312">START WINNING NOW</a >`;
   }
 
   if (amount >= 2000) {
@@ -48,7 +48,7 @@ function getCaption(amount, provider, mobile) {
 🪙 Deposit: 5–15s
 🪙 Withdrawal: 2–5 min
 =======================
-🔥 <a href="https://v6aus.com/RF1525A8312">JOIN NOW & WIN BIG</a >`;
+🔥 <a href="https://v6aus.co/RF1525A8312">JOIN NOW & WIN BIG</a >`;
   }
 
   if (amount >= 1500) {
@@ -65,7 +65,7 @@ function getCaption(amount, provider, mobile) {
 🪙 Deposit: 5–15s
 🪙 Withdrawal: 2–5 min
 =======================
-🔥 <a href="https://v6aus.com/RF1525A8312">CLICK NOW & WIN</a >`;
+🔥 <a href="https://v6aus.co/RF1525A8312">CLICK NOW & WIN</a >`;
   }
 
   return `🎉 <b>CONGRATULATIONS!</b>
@@ -81,7 +81,7 @@ function getCaption(amount, provider, mobile) {
 🪙 Deposit: 5–15s
 🪙 Withdrawal: 2–5 min
 =======================
-🌐 <a href="https://v6aus.com/RF1525A8312">PLAY NOW</a >`;
+🌐 <a href="https://v6aus.co/RF1525A8312">PLAY NOW</a >`;
 }
 
 async function sendPhoto(imagePath, caption) {
@@ -124,7 +124,7 @@ async function fetchLiveWithdraws() {
     method: 'POST',
     headers: {
       'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-      'referer': 'https://v6aus.com/'
+      'referer': 'https://v6aus.co/'
     },
     body: 'background=1&mId=727'
   });
